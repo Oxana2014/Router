@@ -52,3 +52,15 @@ main {
   margin: 2rem auto;
   text-align: center;
 }
+button {
+  background-color: #4b4a47;
+  color: #f4f3f1;
+  border-color: #f4f3f1;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 1rem;
+}
+button:hover {
+  background-color: #dddbd8;
+  color: #242424;
+}
