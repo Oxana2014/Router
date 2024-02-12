@@ -12,13 +12,14 @@ import ErrorPage from "./pages/Error";
 
 const router = createBrowserRouter([
   {
-    path: "/tt",
+    path: "/",
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <HomePage /> },
-      { path: "/products", element: <ProductsPage /> },
-      {path: "/products/:productId", element: <ProductDetailPage />}
+      // { path: "", element: <HomePage /> },
+      { index: true, element: <HomePage /> }, // it will be index page
+      { path: "products", element: <ProductsPage /> },
+      {path: "products/:productId", element: <ProductDetailPage />}
     ],
   },
 ]);

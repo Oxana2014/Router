@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <h1>My Home Page</h1>
       <p>
-        Go to <Link to="/products">the list of products</Link>
+        Go to <Link to="products">the list of products</Link>
       </p>
       <button onClick={navigateHandler}>Navigate to products</button>
     </>
